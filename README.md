@@ -67,12 +67,9 @@ This is a list of resources that have been mentioned during the Statistical Reth
 # Misc Specific Topics
 |Name/Link|Description|
 |:---|:---|
-|[Randomisation is not about balance, nor about homogeneity but about randomness](https://errorstatistics.com/2020/04/20/s-senn-randomisation-is-not-about-balance-nor-about-homogeneity-but-about-randomness-guest-post/)
-|blog post about what randomization is for|
-|[Seven myths of randomisation in clinical trials](https://doi.org/10.1002/sim.5713)
-|article by same author as above|
-|[Complex models and reparameterization](https://vasishth.github.io/bayescogsci/book/ch-complexstan.html#sec-corrstan)
-|Further explanation of how Cholesky factorization works?|
+|[Randomisation is not about balance, nor about homogeneity but about randomness](https://errorstatistics.com/2020/04/20/s-senn-randomisation-is-not-about-balance-nor-about-homogeneity-but-about-randomness-guest-post/)|blog post about what randomization is for|
+|[Seven myths of randomisation in clinical trials](https://doi.org/10.1002/sim.5713)|article by same author as above|
+|[Complex models and reparameterization](https://vasishth.github.io/bayescogsci/book/ch-complexstan.html#sec-corrstan)|Further explanation of how Cholesky factorization works?|
 |[What Is Your Estimand? Defining the Target Quantity Connects Statistical Evidence to Theory (Lundberg, Johnson,   Stewart 2021)](https://doi.org/10.1177/00031224211004187)||
 |[Entropy (for data science) Clearly Explained](https://youtu.be/YtebGVx-Fxw)|Information entropy derivation explained as surprise|
 |[Steve Frank papers](https://stevefrank.org/pub-topic.html)|He has papers on on which generative models correspond to which probability distributions|
