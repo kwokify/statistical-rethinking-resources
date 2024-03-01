@@ -105,6 +105,7 @@ This is a list of resources that have been mentioned during the Statistical Reth
 |:---|:---|
 |[International Conference on Multilevel Analysis](https://multilevel.fss.uu.nl/)||
 |[Elements of Evolutionary Anthropology](https://elevanth.org/blog/)|McElreath blog, "Occasional text on evolutionary anthropology, statistical inference, and the intersection of the two."|
+|[Stan forums](https://discourse.mc-stan.org/)|Online community for applied statistical models|
 
 
 
