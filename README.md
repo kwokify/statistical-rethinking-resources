@@ -12,6 +12,7 @@ This is a list of resources that have been mentioned during the Statistical Reth
 |[Towards A Principled Bayesian Workflow (Betancourt 2020)](https://betanalpha.github.io/assets/case_studies/principled_bayesian_workflow.html)||
 |[Bayesian Statistics without Frequentist Language (McElreath, 2017)](https://youtu.be/yakg94HyWdE?si=07mPP8LngVbmbOpl)|Building a model slowly over time and then adding complexity|
 |[What Is Your Estimand? Defining the Target Quantity Connects Statistical Evidence to Theory (Lundberg, Johnson, Stewart 2021)](https://doi.org/10.1177/00031224211004187)|Every quantitative study must be able to answer the question: what is your estimand?|
+|[Nabiximols treatment efficiency (Vehtari 2024)](https://users.aalto.fi/~ave/casestudies/Nabiximols/nabiximols.html#improved-loo-computation)|Example of model comparison using non-ideal models. Generally, comparisons using models with known flaws useful for incremental model development, exploring what other models to try, and informative in and of itself|
 
 # Applied Examples
 |Name/Link|Description|
@@ -23,18 +24,23 @@ This is a list of resources that have been mentioned during the Statistical Reth
 |[A Probability Model for Golf Putting (Gelman, 2002)](www.stat.columbia.edu/~gelman/research/published/golf.pdf) and [Model building and expansion for golf putting (Gelman 2022)](https://mc-stan.org/users/documentation/case-studies/golf.html)|Example of getting away from interpreting coefficients|
 |[Multilevel Regression and Poststratification Case Studies](https://bookdown.org/jl5522/MRP-case-studies/)|post-stratification case studies|
 |[Perfect Counterfactuals for Epidemic Simulations (Kaminsky, Keegan, Metcalf, Lessler 2019)](https://doi.org/10.1098%2Frstb.2018.0279)||
+|[High rate of extrapair paternity in a human population demonstrates diversity in human reproductive strategies (Scelza et al 2020)](https://doi.org/10.1126/sciadv.aay6195)|[2023 Lecture 17](https://youtu.be/mt9WKbQJrI4?si=1Uh-H8jJ_e2OkQdo&t=2419) ([slides](https://github.com/rmcelreath/stat_rethinking_2024/blob/main/slides/Lecture_17-measurement.pdf))|
 
 # Causal Inference and DAGs
 |Name/Link|Description|
 |:---|:---|
 |[A Crash Course in Good and Bad Controls (Cineli, Forney, Pearl 2021)](https://doi.org/10.1177/00491241221099552)| |[Lecture 6 - Good and Bad Controls](https://youtu.be/uanZZLlzKHw?si=y4bZWQ4WoHqMy7k7&t=2631) (43:55)|
+|[The Book of Why: The New Science of Cause and Effect (Pearl, Mackenzie 2018)](https://search.worldcat.org/en/title/1003311466)|[2023 Lecture 06](https://youtu.be/uanZZLlzKHw?si=T5xThhuhujC0wvIq&t=868) ([slides](https://speakerdeck.com/rmcelreath/statistical-rethinking-2023-lecture-06?slide=17))|
+|[Causal foundations of bias, disparity and fairness (Traag, Waltman 2022)](https://doi.org/10.48550/arXiv.2207.13665)|[2023 Lecture 09](https://youtu.be/Zi6N3GLUJmw?si=lDeJwrPj7TuqjmFG&t=526) ([slides](https://speakerdeck.com/rmcelreath/statistical-rethinking-2023-lecture-09?slide=10)) and [2023 Lecture 10](https://youtu.be/jokxu18egu0?si=_MnzdmORMZwa5etG&t=1166) ([slides](https://speakerdeck.com/rmcelreath/statistical-rethinking-2023-lecture-10?slide=16))|
 |[ggdag R package](https://cran.r-project.org/web/packages/ggdag/vignettes/intro-to-ggdag.html)| A tidyverse extension of the dagitty R package |
 |[A Causal Framework for Cross-Cultural Generalizability (Deffner, Rohrer, McElreath 2022)](http://dx.doi.org/10.1177/25152459221106366)|Selection bias represented by DAGs|
 |[Graphical Causal Models for Survey Inference (Schuessler, Selb 2021)](https://doi.org/10.1177/00491241231176851)|sampling (survey non-response) bias and post-stratification|
-|[Bayesian Networks (Scutari, Denis 2021)](https://www.bnlearn.com/book-crc-2ed/)|Book with other ways to draw DAGs|
+|[Bayesian Networks (Scutari, Denis 2021)](https://www.bnlearn.com/book-crc-2ed/)|About Bayesian network learning, but also has other ways to draw DAGs|
 |[TikZ latex package](https://tikz.org/)|Latex package used for drawing DAGs, can export to pdf|
 |[Causal Inference in Statistics (Pearl 2016)](https://www.wiley.com/en-us/Causal+Inference+in+Statistics%3A+A+Primer-p-9781119186847)|Causal inference primer by Judea Pearl|
 |[Causal Inference: What If (Hernan, Robins 2020)](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/)|online book with printed version pending|
+|[Probabilistic Graphical Models course by Daphne Koller (Stanford)](http://openclassroom.stanford.edu/MainFolder/CoursePage.php?course=ProbabilisticGraphicalModels)|Plate notation pops up in Bayesian statistics but never really explained. It's another version of DAGs. This course does go into it|
+|[Probabilistic Graphical Models Specialization in Coursera by Daphne Koller](https://www.coursera.org/specializations/probabilistic-graphical-models)|Plate notation pops up in Bayesian statistics but never really explained. It's another version of DAGs. This course does go into it|
 
 # MCMC (Markov chain Monte Carlo)
 |Name/Link|Description|
@@ -51,6 +57,13 @@ This is a list of resources that have been mentioned during the Statistical Reth
 |[Randomisation is not about balance, nor about homogeneity but about randomness](https://errorstatistics.com/2020/04/20/s-senn-randomisation-is-not-about-balance-nor-about-homogeneity-but-about-randomness-guest-post/)|blog post about what randomization is for|
 |[Seven myths of randomisation in clinical trials](https://doi.org/10.1002/sim.5713)|article by same author as above|
 |[Common Probability Problems Arise from Simple Invariances (Frank 2017)](https://www.youtube.com/watch?v=c5kmJfDJhJY)|technical|
+
+# Priors
+|Name/Link|Description|
+|:---|:---|
+|[Bayesian Inference without Probability Density Functions (Goodrich 2021)](https://www.youtube.com/watch?v=_wfZSvasLFk)|Framework for using priors created by eliciting quantiles from subject matter experts|
+|[Quantile Function Stan Code](https://github.com/bgoodri/StanCon2020/blob/master/quantile_functions.stan)|Using priors created by eliciting quantiles from subject matter experts, Ben Goodrich is someone that works on this|
+|[Hybrid elicitation and quantile-parametrized likelihood (Perepolkin, Goodrich, Sahlin 2023)](https://doi.org/10.1007/s11222-023-10325-0)|Using priors created by eliciting quantiles from subject matter experts|
 
 # Probability Theory
 |Name/Link|Description|
@@ -86,19 +99,12 @@ This is a list of resources that have been mentioned during the Statistical Reth
 |[Bayesian Data Analysis (Gelman, Vehtari, et al 2021)](https://www.stat.columbia.edu/~gelman/book/)|Gaussian processes don't scale well, so fast approximations are used. This book contains a derivation of approximations of Gaussian proccesses. Also has a birthday example of Gaussian processes|
 |[Deep Neural Networks as Gaussian Processes (Sohl-Dickstein et al 2017)](https://doi.org/10.48550/arXiv.1711.00165)|link between Gaussian proesses and neural networks|
 
+
 # Misc General
 |Name/Link|Description|
 |:---|:---|
 |[International Conference on Multilevel Analysis](https://multilevel.fss.uu.nl/)||
 |[Elements of Evolutionary Anthropology](https://elevanth.org/blog/)|McElreath blog, "Occasional text on evolutionary anthropology, statistical inference, and the intersection of the two."|
-
-# Lecture References
-
-Selected references not in the above
-## Lecture 09 - 
-|Name/Link|Location|
-|:---|:---|:---|
-|[Causal foundations of bias, disparity and fairness (Traag, Waltman 2022)](https://doi.org/10.48550/arXiv.2207.13665)|Lecture 09 - |
 
 
 
