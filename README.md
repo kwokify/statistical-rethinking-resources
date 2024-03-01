@@ -97,6 +97,7 @@ This is a list of resources that have been mentioned during the Statistical Reth
 |[Prediction can be safely used as a proxy for explanation in causally consistent Bayesian generalized linear models (Scholz, Burkner 2022)](https://doi.org/10.48550/arXiv.2210.06927)|models under misspecification|
 |[White House "Nelson" memo](https://www.whitehouse.gov/wp-content/uploads/2022/08/08-2022-OSTP-Public-access-Memo.pdf)|future requirement that publications and research data arising from US federal funds be made publicly accessible immediately upon publication|
 |[Bayesian Data Analysis (Gelman, Vehtari, et al 2021)](https://www.stat.columbia.edu/~gelman/book/)|Gaussian processes don't scale well, so fast approximations are used. This book contains a derivation of approximations of Gaussian proccesses. Also has a birthday example of Gaussian processes|
+|[Bayesian workflow book - Birthdays (Vehtari 2020)](https://avehtari.github.io/casestudies/Birthdays/birthdays.html)|Case study page for birthday example above|
 |[Deep Neural Networks as Gaussian Processes (Sohl-Dickstein et al 2017)](https://doi.org/10.48550/arXiv.1711.00165)|link between Gaussian proesses and neural networks|
 
 
