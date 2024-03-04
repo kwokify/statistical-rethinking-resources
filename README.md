@@ -4,6 +4,8 @@ This is a list of resources that have been mentioned during the Statistical Reth
 
 
 # Workflow
+
+## Misc
 |Name/Link|Description|
 |:---|:---|
 |[Bayesian Workflow (Gelman et al 2020)](https://doi.org/10.48550/arXiv.2011.01808)|100p paper on Bayesian workflow, Gelman is also working on a book version of this|
@@ -12,7 +14,13 @@ This is a list of resources that have been mentioned during the Statistical Reth
 |[Towards A Principled Bayesian Workflow (Betancourt 2020)](https://betanalpha.github.io/assets/case_studies/principled_bayesian_workflow.html)||
 |[Bayesian Statistics without Frequentist Language (McElreath, 2017)](https://youtu.be/yakg94HyWdE?si=07mPP8LngVbmbOpl)|Building a model slowly over time and then adding complexity|
 |[What Is Your Estimand? Defining the Target Quantity Connects Statistical Evidence to Theory (Lundberg, Johnson, Stewart 2021)](https://doi.org/10.1177/00031224211004187)|Every quantitative study must be able to answer the question: what is your estimand?|
-|[Nabiximols treatment efficiency (Vehtari 2024)](https://users.aalto.fi/~ave/casestudies/Nabiximols/nabiximols.html#improved-loo-computation)|Example of model comparison using non-ideal models. Generally, comparisons using models with known flaws useful for incremental model development, exploring what other models to try, and informative in and of itself|
+
+## Reporting Results
+
+|Name/Link|Description|
+|:---|:---|
+|[Hypothetical Outcome Plots Outperform Error Bars and Violin Plots for Inferences About Reliability of Variable Ordering (Hullman, Resnick, Adar 2015)](https://doi.org/10.1371/journal.pone.0142444)|[2023 Lecture 20](https://youtu.be/qwF-st2NGTU?feature=shared&t=4691) ([slides](https://github.com/rmcelreath/stat_rethinking_2024/blob/main/slides/Lecture_20-horoscopes.pdf))|
+|[*How Charts Lie: Getting Smarter About Visual Information* by Alberto Cairo](https://search.worldcat.org/en/title/1137807427)|[2023 Lecture 20](https://youtu.be/qwF-st2NGTU?feature=shared&t=4691) ([slides](https://github.com/rmcelreath/stat_rethinking_2024/blob/main/slides/Lecture_20-horoscopes.pdf))|
 
 # Applied Examples
 |Name/Link|Description|
@@ -48,6 +56,12 @@ This is a list of resources that have been mentioned during the Statistical Reth
 |[MCMC Interactive Gallery](https://chi-feng.github.io/mcmc-demo/app.html)|Visualization of Hamiltonian Monte Carlo (HMC)|
 |[Bulk effective sample size (bulk-ESS)](https://mc-stan.org/posterior/reference/ess_bulk.html)|ess_bulk as a new diagnostic replacing n_eff|
 
+# Model Comparison and Selection
+|Name/Link|Description|
+|:---|:---|
+|[Nabiximols treatment efficiency - Improved LOO computation (Vehtari 2024)](https://users.aalto.fi/~ave/casestudies/Nabiximols/nabiximols.html#improved-loo-computation)|Example of model comparison using non-ideal models. Generally, comparisons using models with known flaws useful for incremental model development, exploring what other models to try, and informative in and of itself|
+|[Projective inference in high-dimensional problems: Prediction and feature selection (Piironen, Paasiniemi, Vehtari 2020)](https://doi.org/10.1214/20-EJS1711)|Procedure fitting a reference model and comparing with simpler models via algorithm that is less computationally intensive than refitting every model. Authors have a related [`projpred`](https://mc-stan.org/projpred/) R package|
+
 # Myths and Bad Habits
 |Name/Link|Description|
 |:---|:---|
@@ -72,6 +86,7 @@ This is a list of resources that have been mentioned during the Statistical Reth
 |[Probability Theory: The Logic of Science (Jaynes 1995 posthumously?)](https://bayes.wustl.edu/etj/prob/)|epistemological vs. ontological assumptions in statistics. Technical, rough, and weird in places. First few chapters relevant|
 |[Jaynes bibliography with pdfs](https://bayes.wustl.edu/etj/node1.html)|
 
+
 # Survival Analysis/Event History/Time Analysis
 |Name/Link|Description|
 |:---|:---|
@@ -91,7 +106,7 @@ This is a list of resources that have been mentioned during the Statistical Reth
 # Misc Specific Topics
 |Name/Link|Description|
 |:---|:---|
-|[Steve Frank papers](https://stevefrank.org/pub-topic.html)|He has papers on on which generative models correspond to which probability distributions|
+|[Steve Frank papers](https://stevefrank.org/pub-topic.html)|He has papers on which generative models correspond to which probability distributions|
 |[Regression Modeling Strategies (Harrel 2015 and 2024)](https://hbiostat.org/rmsc/)|Chapter 2.4 tackles splines|
 |[Visualizing the differences between Bayesian posterior predictions, linear predictions, and the expectation of posterior predictions (Heiss, 2022)](https://doi.org/10.59350/xge39-emt86)||
 |[Prediction can be safely used as a proxy for explanation in causally consistent Bayesian generalized linear models (Scholz, Burkner 2022)](https://doi.org/10.48550/arXiv.2210.06927)|models under misspecification|
