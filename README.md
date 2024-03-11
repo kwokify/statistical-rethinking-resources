@@ -13,6 +13,7 @@ This is a list of resources that have been mentioned during the Statistical Reth
 |[Bayesian Workflow (Gelman et al 2020)](https://doi.org/10.48550/arXiv.2011.01808)|100p paper on Bayesian workflow, Gelman is also working on a book version of this|
 |[Telling Stories with Data (Alexander)](https://tellingstorieswithdata.com/)|post-stratification with code included, but also generally about statistical communication, programming, and modeling|
 |[Regression and Other Stories (Gelman, Hill, Vehtari 2020)](https://avehtari.github.io/ROS-Examples/)|Site has a link to pdf of book|
+|[Active Statistics (Gelman, Vehtari 2024)](https://avehtari.github.io/ActiveStatistics/)|Book designed to accompany Regression and Other Stories, hundreds of stories, activities, and discussion problems on applied statistics and causal inference|
 |[Towards A Principled Bayesian Workflow (Betancourt 2020)](https://betanalpha.github.io/assets/case_studies/principled_bayesian_workflow.html)||
 |[Bayesian Statistics without Frequentist Language (McElreath, 2017)](https://youtu.be/yakg94HyWdE?si=07mPP8LngVbmbOpl)|Building a model slowly over time and then adding complexity|
 
